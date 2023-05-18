@@ -12,11 +12,11 @@ export class NavBarComponent {
   event$;
 
   links = [
-    { id: '1', label: 'HOME', link: '/home', active: 'HOME' },
-    { id: '2', label: 'SERVICES', link: '/service', active: 'SERVICES' },
-    { id: '3', label: 'ABOUT', link: '/about', active: 'ABOUT' },
-    { id: '4', label: 'CLIENT GALLERY', link: '/gallery', active: 'CLIENT GALLERY' },
-    { id: '5', label: 'BOOK NOW', link: '/reservation', active: 'BOOK NOW' },
+    { id: '1', label: 'HOME', link: '/home' },
+    { id: '2', label: 'SERVICES', link: '/service' },
+    { id: '3', label: 'ABOUT', link: '/about' },
+    { id: '4', label: 'CLIENT GALLERY', link: '/gallery' },
+    { id: '5', label: 'BOOK NOW', link: '/reservation' },
   ];
 
   activeLink = this.links[0];
